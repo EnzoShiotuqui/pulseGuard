@@ -1,0 +1,44 @@
+
+
+.main-banner p{
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #FF9505;
+    text-shadow: #000 2px 2px 2px;
+    font-size: 32px
+}
+
+.main-banner{
+    background-image: url('../img/cartoon.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+  }
+  .Logo {
+    max-width: 100%; 
+  } 
+
+  @media (max-width: 900px) {
+    .main-banner p {
+      padding: 0 6rem;
+    }
+  }
+
+  /* celular 576px */
+  @media (max-width: 576px) {
+    .main-banner p {
+      padding: 0 2rem;
+    }
+    .Container {
+        overflow-x: hidden;
+      }
+  }
