@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react"; // Importe o useState
 import './Navbar.scss'
 import 'boxicons/css/boxicons.min.css';
-import pulse from '../../assets/img/pulse.png';
+import pulse from '../../assets/img/tech.png';
 
 function Navbar() {
     const [isActive, setIsActive] = useState(false); // Estado para controlar a classe ativa

@@ -12,14 +12,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     img{
-        width: 14rem;
+        width: 12rem;
         align-items: center;
         margin: 0 auto;
     }
 }
 
 .footer-img p{
-    color:var(--primary-text);
+    color:var(--primary);
     padding: 4px;
     text-align: center;
     font-size: 20px;
@@ -35,7 +35,7 @@
 }
 
 .footer-midia i {
-    color: var(--primary-text);
+    color: var(--primary);
     font-size: 1.4rem;
     gap:10px;
     display: flex;
@@ -46,7 +46,7 @@
 }
 
 .footer-midia a{
-    color: var(--primary-text);
+    color: var(--primary);
     text-decoration: none;
     font-size: 1.4rem;
 }
@@ -56,7 +56,7 @@
     display: flex;
     gap:2rem;
     cursor: pointer;
-    color: var(--primary-text);
+    color: var(--secondary);
 }
 
 

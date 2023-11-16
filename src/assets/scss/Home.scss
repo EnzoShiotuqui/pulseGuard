@@ -5,13 +5,13 @@
     align-items: center;
     text-align: center;
     font-weight: bold;
-    color: #FF9505;
+    color: var(--secondary);
     text-shadow: #000 2px 2px 2px;
     font-size: 32px
 }
 
 .main-banner{
-    background-image: url('../img/cartoon.jpg');
+    background-image: url('../img/main.jpg');
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
@@ -23,8 +23,9 @@
     justify-content: center; 
     height: 100%;
   }
-  .Logo {
-    max-width: 100%; 
+  .logo {
+    max-width: 25rem;
+    border-radius: 50%;
   } 
 
   @media (max-width: 900px) {

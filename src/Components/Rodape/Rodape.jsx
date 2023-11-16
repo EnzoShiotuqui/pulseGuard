@@ -1,4 +1,4 @@
-import logo from '../../assets/img/pulse.png'
+import logo from '../../assets/img/tech.png'
 import './Rodape.scss'
 function Rodape(){
     return(

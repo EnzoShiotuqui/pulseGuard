@@ -1,0 +1,113 @@
+.cadastro-container{
+    background-image: url('../img/room2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.cadastro-container .paragrafo{
+    align-items: center;
+    line-height: 2.2em;
+    text-align: center;
+    font-weight: bold;
+    color:var(--hover-primary);
+    text-shadow: #000 2px 2px 2px;
+    font-size: 32px
+}
+
+.form-box{
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #04b8ff, #056788);
+    border-radius: 5px;
+    width: 450px;
+    max-width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--dark-primary);
+    padding: 1.2rem;
+    text-decoration:underline;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-boxx {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: transparent;
+    border:none
+}
+
+.form-boxx label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: var(--dark-primary);
+    font-weight: 600;
+}
+
+.form-boxx input {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+}
+
+.form button {
+    background-color: var(--primary);
+    border-radius: 5px;
+    color: var(--white);
+    border: 1px solid var(--dark-primary);
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--dark-primary);
+    transition: 0.3s;
+}
+
+.form-boxx input::placeholder {
+    color: #999;
+}
+
+.form-boxx input:focus {
+    border: 5px solid #01d2f7;   
+}
+
+.backbtn{
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.backbtn a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.backbtn a:hover{
+    text-decoration: none;
+    transition: .2s;
+    color: var(--hover-primary);
+}
+
+
+.input-error {
+    border: 1px solid red; 
+  }
+  
+  .input-success {
+    border: 1px solid green; 
+  }
