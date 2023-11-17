@@ -1,0 +1,17 @@
+.login-container{
+    background-image: url('../img/main.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.backbtn{
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.backbtn a{
+    text-decoration: none;
+    color: var(--secondary);
+}

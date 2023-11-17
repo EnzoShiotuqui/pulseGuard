@@ -1,0 +1,45 @@
+
+
+.main-banner p{
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: var(--secondary);
+    text-shadow: #000 2px 2px 2px;
+    font-size: 32px
+}
+
+.main-banner{
+    background-image: url('../img/room-hosp.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+  }
+  .logo {
+    max-width: 25rem;
+    border-radius: 50%;
+  } 
+
+  @media (max-width: 900px) {
+    .main-banner p {
+      padding: 0 6rem;
+    }
+  }
+
+  /* celular 576px */
+  @media (max-width: 576px) {
+    .main-banner p {
+      padding: 0 2rem;
+    }
+    .Container {
+        overflow-x: hidden;
+      }
+  }

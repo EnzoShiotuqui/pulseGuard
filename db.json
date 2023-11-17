@@ -1,0 +1,18 @@
+{
+  "cadastros": [
+    {
+      "id": 1,
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "password": "12345",
+      "passwordConfirmation": "12345"
+    },
+    {
+      "name": "Enzo ",
+      "email": "enzo@gmail.com",
+      "password": "123456",
+      "passwordConfirmation": "123456",
+      "id": 2
+    }
+  ]
+}

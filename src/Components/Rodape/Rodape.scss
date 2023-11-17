@@ -1,0 +1,93 @@
+@import url(../../App.module.scss);
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid var(--dark-primary);
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    img{
+        width: 12rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+.footer-img p{
+    color:var(--primary);
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-midia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-midia i {
+    color: var(--primary);
+    font-size: 1.4rem;
+    gap:10px;
+    display: flex;
+}
+
+.footer-midia i:hover {
+    color: var(--dark-primary);
+}
+
+.footer-midia a{
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.social-media{
+    font-size: 2.8rem;
+    display: flex;
+    gap:2rem;
+    cursor: pointer;
+    color: var(--secondary);
+}
+
+
+
+.social-media div:nth-child(1):hover{
+    font-size: 3rem;
+    transition: .2s;
+}
+
+.social-media div:nth-child(2):hover{
+    font-size: 3rem;
+    transition: .2s;
+}
+
+.social-media div:nth-child(3):hover{
+    font-size: 3rem;
+    transition: .2s;
+}
+
+
+@media(max-width:760px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 2rem;
+    } 
+
+    .footer-midia{
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+    }
+}
