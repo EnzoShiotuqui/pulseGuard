@@ -5,7 +5,7 @@ import  { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { isEmail } from "validator";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Modal, Button } from "react-bootstrap"
+import { Modal } from "react-bootstrap"
 import { Spinner } from "react-bootstrap";
 
 import styled from "styled-components"
@@ -52,6 +52,15 @@ function Cadastro(){
 
       const onSubmit = async (data) => {
         setLoading(true)
+
+        const sessionUserData = JSON.parse(sessionStorage.getItem("UserData")) || [];
+        if (sessionUserData.some((user) => user.email === data.email)) {
+          setDuplicateData(true);
+          setShowEmailError(true);
+          setLoading(false);
+          return;
+        }
+
         if (await checkForDuplicateData(data)) {
           setDuplicateData(true);
           setShowEmailError(true);
@@ -67,9 +76,9 @@ function Cadastro(){
       
             if (response.status === 201) {
             setAuthenticated(true)
-            const sessionUserData = JSON.parse(sessionStorage.getItem("sessionUserData")) || [];
+            const sessionUserData = JSON.parse(sessionStorage.getItem("UserData")) || [];
             sessionUserData.push(data);
-            sessionStorage.setItem("sessionUserData", JSON.stringify(sessionUserData))
+            sessionStorage.setItem("UserData", JSON.stringify(sessionUserData))
             
         
       
@@ -121,7 +130,7 @@ function Cadastro(){
       useEffect(() => {
         if (loading && authenticated) {
           setTimeout(() => {
-            navigate("/login");
+            navigate("/Login");
           }, 3000);
         }
       }, [loading, authenticated]);

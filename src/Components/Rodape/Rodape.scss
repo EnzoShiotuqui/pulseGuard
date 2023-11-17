@@ -75,3 +75,19 @@
     font-size: 3rem;
     transition: .2s;
 }
+
+
+@media(max-width:760px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 2rem;
+    } 
+
+    .footer-midia{
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+    }
+}
