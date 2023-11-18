@@ -32,6 +32,7 @@
                         </Carousel.Caption>
                     </Carousel.Item>
                     </Carousel>
+                    <h2 className="subtitle">Vantagens</h2>
                     <div className="vantagens">
                         <div>
                             <h1>Monitoramento Contínuo </h1>
@@ -44,7 +45,7 @@
                             <p>Facilita o trabalho dos profissionais de saúde, fornecendo dados precisos e atualizados, otimizando o tempo de consulta e permitindo um acompanhamento mais eficiente.</p>
                         </div>
                         <div>
-                            <h1>Prevenção e Diagnóstico Precoce</h1>
+                            <h1>Prevenção a Diagnóstico Precoce</h1>
                             <i class='bx bxs-report'></i>
                             <p>Identificação precoce de padrões anormais que podem indicar problemas de saúde, permitindo intervenções proativas e a prevenção de complicações.</p>
                         </div>
@@ -55,7 +56,7 @@
                         </div>
                     </div>
                     <button className="btn-about">
-                        Saiba Mais 
+                        <Link to="/About">Saiba mais </Link>
                     </button>
                 </div>
                 

@@ -5,7 +5,7 @@ import Home from './Routes/Home.jsx'
 import Cadastro from './Routes/Cadastro.jsx'
 import Login from './Routes/Login.jsx'
 import Usuario from './Routes/Usuario.jsx'
-
+import About from './Routes/About.jsx'
 
 const router = createBrowserRouter([
   {path: "/", element:<App/>,
@@ -14,6 +14,7 @@ const router = createBrowserRouter([
       {path: "/Cadastro", element: <Cadastro/>},
       {path: "/Login", element: <Login/>},
       {path: "/Usuario", element: <Usuario/>},
+      {path: "/About", element: <About/>},
     ]   
   }    
 ])
