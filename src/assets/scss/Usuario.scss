@@ -1,0 +1,133 @@
+.user-container {
+    background-image: url('../img/hop-back.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+    width: 100%;
+    margin: 0 auto;
+
+    .carousel-item img {
+        
+        height: 700px; 
+        border-radius: 5px; 
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .carousel-item h3{
+        font-size: 1.7rem;
+        text-shadow: #000 2px 2px 2px;
+    }
+
+    .carousel-caption {
+        text-align: center;
+        bottom: 20px; 
+    }
+
+    // Adicione estilos específicos para as setas do carrossel
+    .carousel-control-prev,
+    .carousel-control-next {
+       display: none;
+    }
+
+    .title{
+        font-size: 5rem;
+        text-align: center;
+        color: var(--hover-primary);
+        text-shadow: #000 2px 2px 2px;
+    }
+}
+
+.vantagens{
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+    div{
+        background: linear-gradient(to bottom, #04b8ff, #056788);
+        border-radius: .6rem;
+        background-color: aliceblue;
+        text-align: center;
+        transition: 1s;
+        h1{
+            font-size: 1.8rem;
+            padding: .6rem;
+            color: var(--dark-primary);
+        }
+        p{
+            font-size: 1rem;
+            color: var(--dark-primary);
+            padding: 1rem;
+            font-weight: bold;
+        }
+        i{
+            font-size: 2rem;
+            color: rgb(20, 61, 196);
+        }
+    }
+    div:hover{
+        background: var(--hover-primary);
+        transition: 1s;
+    }
+}
+
+.btn-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 2%;
+    border-radius: .6rem;
+    border: none;
+    background: var(--hover-primary);
+}
+
+
+
+@media (max-width:1180px){
+    .vantagens{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 1rem;
+        div{
+            background: linear-gradient(to bottom, #04b8ff, #056788);
+            border-radius: .6rem;
+            background-color: aliceblue;
+            text-align: center;
+            transition: 1s;
+            h1{
+                font-size: 1.8rem;
+                padding: .6rem;
+                color: var(--dark-primary);
+            }
+            p{
+                font-size: 1rem;
+                color: var(--dark-primary);
+                padding: 1rem;
+            }
+            i{
+                font-size: 2rem;
+                color: rgb(20, 61, 196);
+            }
+        }
+        div:hover{
+            background: var(--hover-primary);
+            transition: 1s;
+        }
+    }
+}
+
+@media (max-width:700px){
+    .carousel-item img {
+        width: 70%;
+        height: 700px; 
+        border-radius: 5px; 
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
