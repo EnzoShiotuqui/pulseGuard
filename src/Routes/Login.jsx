@@ -118,7 +118,8 @@ function Login() {
           }}
         >
           <Pmodal>
-            Seja Bem vindo a reUse, é um prazer em tê-lo conosco,{" "}
+            Seja Bem vindo  é um prazer em tê-lo conosco,{" "}
+            {JSON.parse(sessionStorage.getItem("userData")).name} 
           </Pmodal>
           <Pmodal>Você será direcionado Automaticamente </Pmodal>
           {loading && (
