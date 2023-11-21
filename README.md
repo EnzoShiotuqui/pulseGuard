@@ -12,6 +12,12 @@ Clone o projeto
   git clone https://link-do-projeto
 ```
 
+Instale as dependências
+
+```
+  npm install 
+```
+
 Vá até o projeto
 
 ```bash
@@ -49,6 +55,11 @@ E colocar essa senha
 ```
 
 Caso queira realizar um cadastro, será muito bem vindo :) 
+
+
+## ScreenShot
+
+![screenshot](Screenshot_2.png)
 
 
 ## Autores
