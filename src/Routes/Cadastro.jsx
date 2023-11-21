@@ -12,16 +12,13 @@ import styled from "styled-components"
 
 export const Pmodall = styled.p`
     font-size:25px;
-    color:##023E8A;
+    color:#023E8A;
     text-align:center;
 `
 
 export const PSubb = styled.p`
     text-align:center;
 `
-
-
-
 function Cadastro(){
 
     const {
