@@ -36,7 +36,7 @@ Execute a api local
   npm run start:api
 ```
 
-Basta clicar no link localhost e aproveitar o site :) 
+Basta clicar no link localhost e aproveitar o site! :) 
 
 ## Teste - Login
 
@@ -54,7 +54,7 @@ E colocar essa senha
   12345
 ```
 
-Caso queira realizar um cadastro, será muito bem vindo :) 
+Caso queira realizar um cadastro, será muito bem vindo! :) 
 
 
 ## ScreenShot
